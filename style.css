@@ -56,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 .maintop {
   border-radius: 40px;
@@ -188,6 +189,53 @@ body {
 .menuheader {
   font-size: 70px;
 }
+.about {
+  margin: 20px 0 0 0;
+  background-color: #b38f00;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.sectionheader {
+  background-color: #d0d0d0;
+  margin-bottom: 20px;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+.sectionheader h4 {
+  font-size: 40px;
+  color: #000000;
+}
+
+.about p {
+  font-size: 22px;
+  color: #000000;
+}
+.nav a {
+  color: #ffde5a;
+  text-decoration: none;
+}
+.navcontentmob a {
+  color: #ffde5a;
+  text-decoration: none;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+}
+.servicesleft,
+.servicesright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicesleft {
+  background-color: #d0d0d0;
+  color: #000000;
+}
 @media screen and (max-width: 1000px) {
   .navcontent {
     display: none;
@@ -223,6 +271,12 @@ body {
   }
   .nav {
     margin-bottom: 0px;
+  }
+  .mainbody img {
+    width: 30vh;
+  }
+  .about {
+    align-items: center;
   }
 }
 @media screen and (min-width: 1001px) {

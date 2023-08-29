@@ -37,11 +37,19 @@ body {
   font-size: 20px;
   gap: 50px;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 .mainbody img {
   width: 40vh;
   border-radius: 80px;
 }
 .mainbody {
+  width: 100%;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -55,6 +63,7 @@ body {
   display: flex;
   width: 70%;
   box-shadow: 0px 0px 20px 0px #ad8a00;
+  margin-top: 30px;
 }
 .maintopright {
   display: flex;
@@ -125,10 +134,26 @@ body {
   padding: 6px 20px 6px 20px;
   font-size: 20px;
   margin-bottom: 10px;
-  color: #000000;
 }
 .menuhead p {
   transform: skew(-20deg);
+}
+.linetop {
+  width: 80%;
+  border: none;
+  background-color: #ffde5a;
+  height: 1px;
+  opacity: 0.5;
+}
+.navcontentmob {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: #d9d9d9;
 }
 
 @keyframes fadeInAnimation {
@@ -141,9 +166,13 @@ body {
 }
 .navmob {
   display: none;
-  width: 100%;
+  width: 80%;
   background-color: #000000;
-  padding-bottom: 20px;
+  padding: 20px 0px 20px 0px;
+  border: 1px solid #ffde5a;
+  border-top: none;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .navimg svg {
   height: 50px;
@@ -191,6 +220,9 @@ body {
   .menuleft,
   .menuright {
     width: 100%;
+  }
+  .nav {
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1001px) {

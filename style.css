@@ -44,7 +44,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.mainbody img {
+.maintop img {
   width: 40vh;
   border-radius: 80px;
 }
@@ -224,6 +224,10 @@ body {
   display: flex;
   flex-direction: row;
 }
+.servicesleft h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
 .servicesleft,
 .servicesright {
   width: 50%;
@@ -232,9 +236,52 @@ body {
   justify-content: center;
   align-items: center;
 }
+.servicesright {
+  padding: 30px;
+}
+.servicesrightcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.servicesrightcontent h5 {
+  font-size: 40px;
+  color: #ffde5a;
+}
 .servicesleft {
   background-color: #d0d0d0;
   color: #000000;
+}
+.footer {
+  display: flex;
+  margin: 20px 0 20px 0;
+  background-color: #000000;
+  color: #d9d9d9;
+
+  align-items: center;
+  justify-content: center;
+
+  width: calc(100% - 100px);
+  flex-direction: column;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #ffde5a;
+  border-radius: 20px;
+}
+.socials {
+  width: fit-content;
+  height: fit-content;
+}
+.socials img {
+  height: 30px;
+  width: 30px;
+}
+.footer h1 {
+  font-size: 24px;
+  color: #b38f00;
+}
+.footer p {
+  margin: 7px;
 }
 @media screen and (max-width: 1000px) {
   .navcontent {
@@ -272,11 +319,27 @@ body {
   .nav {
     margin-bottom: 0px;
   }
-  .mainbody img {
+  .maintop img {
     width: 30vh;
   }
   .about {
     align-items: center;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .services h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .servicesleft {
+    padding: 30px 0px 30px 0;
+  }
+  .servicesleft {
+    width: 100%;
+  }
+  .servicesright {
+    width: calc(100% - 60px);
   }
 }
 @media screen and (min-width: 1001px) {

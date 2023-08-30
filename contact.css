@@ -25,7 +25,37 @@
   border-radius: 20px;
   width: 70%;
 }
-
+li img {
+  height: 30px;
+}
+li,
+.lipart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.contactheader {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+li {
+  justify-content: space-around;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+u .contactinfo {
+  background-color: #f1f1f1;
+  color: #000000;
+  padding: 30px;
+  width: 60%;
+  border-radius: 40px;
+  border: 3px solid #ca944b;
+  margin: 30px 0 30px 0;
+}
 .map a p {
   justify-self: center;
   margin-top: 20px;
@@ -49,5 +79,12 @@
 @media screen and (max-width: 1000px) {
   .map a p {
     margin: 15px 0px 0px 0px;
+  }
+  li {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contactheader {
+    font-size: 18px;
   }
 }

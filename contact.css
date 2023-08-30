@@ -1,0 +1,53 @@
+.map img {
+  height: 40px;
+  margin: 12px 5px 15px 5px;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.map a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+
+.contactacting,
+.contactcafe {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ca944b;
+  padding: 30px;
+  color: #000000;
+  border-radius: 20px;
+  width: 70%;
+}
+
+.map a p {
+  justify-self: center;
+  margin-top: 20px;
+  color: #d9d9d9;
+}
+.contactacting h4 {
+  font-size: 30px;
+  color: #dcdacf;
+}
+
+.contactcafe p {
+  margin-top: 10px;
+}
+.contactacting p {
+  margin-top: 10px;
+}
+.contactcafe h4 {
+  font-size: 30px;
+  color: #dcdacf;
+}
+@media screen and (max-width: 1000px) {
+  .map a p {
+    margin: 15px 0px 0px 0px;
+  }
+}

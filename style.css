@@ -196,6 +196,7 @@ body {
   background-color: #b38f00;
   padding: 30px;
   display: flex;
+
   flex-direction: column;
 }
 .sectionheader {
@@ -230,6 +231,10 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
 }
+.about {
+  width: calc(100% - 150px);
+  border-radius: 40px;
+}
 .servicesleft,
 .servicesright {
   width: 50%;
@@ -240,6 +245,7 @@ body {
 }
 .servicesright {
   padding: 30px 30px 10px 30px;
+  background-color: #1c1c1c;
 }
 .servicesrightcontent {
   display: flex;
@@ -294,15 +300,26 @@ body {
   width: 100%;
   padding: 10px 20px 10px 20px;
   font-size: 20px;
+  margin-top: 10px;
 
   border: none;
   background-color: #d7ae09;
   color: #000000;
   border-radius: 10px;
 }
+
+.services {
+  border-radius: 40px;
+  overflow: hidden;
+  width: calc(100% - 100px);
+  margin-top: 20px;
+}
 @media screen and (max-width: 1000px) {
   .navcontent {
     display: none;
+  }
+  .about {
+    width: calc(100% - 80px);
   }
   .menuheader {
     font-size: 50px;
@@ -344,6 +361,7 @@ body {
   }
   .services {
     flex-direction: column;
+    width: calc(100% - 20px);
   }
   .services h1 {
     text-align: center;
@@ -357,6 +375,9 @@ body {
   }
   .servicesright {
     width: calc(100% - 60px);
+  }
+  .maintop h1 {
+    font-size: 60px;
   }
 }
 @media screen and (min-width: 1001px) {

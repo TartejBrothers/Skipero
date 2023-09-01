@@ -44,10 +44,10 @@ body {
   align-items: center;
   width: 100%;
 }
-.maintop img {
+/* .maintop img {
   width: 40vh;
   border-radius: 80px;
-}
+} */
 .mainbody {
   width: 100%;
   animation: fadeInAnimation ease 3s;
@@ -63,19 +63,34 @@ body {
   border-radius: 40px;
   overflow: hidden;
   display: flex;
-
-  width: 70%;
+  min-height: 80vh;
+  width: 90vw;
   box-shadow: 0px 0px 20px 0px #ad8a00;
   margin-top: 30px;
+  margin-bottom: 70px;
 }
+#mission {
+  flex-direction: row-reverse;
+}
+#mission .servicesleft {
+  background-color: #e9d277;
+}
+
 .maintopright {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
   flex-direction: column;
-  padding: 20px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("res.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 .maintopright p {
   font-size: 20px;
   margin-bottom: 10px;
@@ -167,6 +182,7 @@ body {
     opacity: 1;
   }
 }
+
 .navmob {
   display: none;
   width: 80%;
@@ -318,6 +334,12 @@ body {
   .navcontent {
     display: none;
   }
+  .maintopright p {
+    margin: 10px;
+  }
+  .maintopright p {
+    font-size: 15px;
+  }
   .about {
     width: calc(100% - 80px);
   }
@@ -328,13 +350,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .menubutton {
+    font-size: 14px;
+  }
   .time {
     flex-direction: column;
     gap: 5px;
   }
-  .maintopright p {
-    font-size: 20px;
-  }
+
   .time p {
     font-size: 12px;
   }
@@ -353,9 +376,9 @@ body {
   .nav {
     margin-bottom: 0px;
   }
-  .maintop img {
+  /* .maintop img {
     width: 30vh;
-  }
+  } */
   .about {
     align-items: center;
   }
@@ -366,6 +389,9 @@ body {
   .services h1 {
     text-align: center;
     font-size: 40px;
+  }
+  #mission {
+    flex-direction: column;
   }
   .servicesleft {
     padding: 30px 0px 30px 0;
@@ -378,6 +404,9 @@ body {
   }
   .maintop h1 {
     font-size: 60px;
+  }
+  .servicesrightcontent h5 {
+    text-align: center;
   }
 }
 @media screen and (min-width: 1001px) {

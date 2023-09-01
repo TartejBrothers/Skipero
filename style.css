@@ -68,6 +68,12 @@ body {
   box-shadow: 0px 0px 20px 0px #ad8a00;
   margin-top: 30px;
   margin-bottom: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("res.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 #mission {
   flex-direction: row-reverse;
@@ -83,12 +89,12 @@ body {
   width: 100%;
   flex-direction: column;
   padding: 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("res.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
 }
 
 .maintopright p {

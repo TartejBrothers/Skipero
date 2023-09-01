@@ -114,6 +114,9 @@ li p {
     width: 100%;
     justify-content: center;
   }
+  .lipart p {
+    font-size: 14px;
+  }
   li {
     gap: 0px;
     width: 100%;

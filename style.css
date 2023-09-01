@@ -82,7 +82,7 @@ body {
   text-align: center;
   width: 100%;
   flex-direction: column;
-
+  padding: 30px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("res.jpg");
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
   font-size: 16px;
 }
 .maintop h1 {
-  font-family: "Rancho", cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 100px;
   text-align: center;
   color: #ffde5a;
@@ -359,7 +359,8 @@ body {
   }
 
   .time p {
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
   }
   .mainmenu,
   .menurow {
@@ -411,6 +412,9 @@ body {
 }
 @media screen and (min-width: 1001px) {
   .navimg {
+    display: none;
+  }
+  #menu {
     display: none;
   }
 }

@@ -32,8 +32,13 @@ li,
 .lipart {
   display: flex;
   align-items: center;
-  gap: 10px;
+
   font-size: 18px;
+}
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .contactheader {
   text-align: center;
@@ -41,11 +46,18 @@ li,
   margin-bottom: 15px;
 }
 li {
-  justify-content: space-around;
+  justify-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px;
 }
 li a {
   text-decoration: none;
   color: #000000;
+}
+li p {
+  margin: 10px 10px 10px 0;
 }
 .contactinfo {
   background-color: #f1f1f1;
@@ -86,5 +98,24 @@ li a {
   }
   .contactheader {
     font-size: 18px;
+  }
+  .contactinfo {
+    padding: 20px;
+  }
+  ul {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .lipart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  li {
+    gap: 0px;
+    width: 100%;
   }
 }

@@ -48,6 +48,23 @@
   color: #ffba66;
   text-align: right;
 }
+.menubutton a:visited,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.menubutton {
+  text-align: center;
+  text-decoration: none;
+  color: #3e3e3e;
+  width: 50vw;
+}
+.buttonlink {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 .eventsleftbottom {
   height: 100%;
   display: flex;

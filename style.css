@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #000000;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 10px 10px 30px;
   color: #ffde5a;
 }
 .nav img {
@@ -35,7 +35,9 @@ body {
   align-items: center;
   max-width: 30%;
   font-size: 20px;
-  gap: 50px;
+}
+.navcontent a {
+  margin-right: 30px;
 }
 
 .main {
@@ -339,6 +341,9 @@ body {
 @media screen and (max-width: 1000px) {
   .navcontent {
     display: none;
+  }
+  .nav {
+    padding: 10px 30px 10px 30px;
   }
   .maintopright p {
     margin: 10px;

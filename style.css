@@ -13,6 +13,7 @@ body {
   background-color: #000000;
   color: #d9d9d9;
 }
+
 .nav {
   display: flex;
   margin: 20px 20px 20px 20px;
@@ -223,6 +224,19 @@ body {
 
   flex-direction: column;
 }
+
+.about ul li {
+  color: #000000;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.about ul {
+  margin-left: 30px;
+}
+.sectionheader {
+  text-align: center;
+}
+
 .sectionheader {
   background-color: #d0d0d0;
   margin-bottom: 20px;
@@ -238,6 +252,7 @@ body {
 .about p {
   font-size: 22px;
   color: #000000;
+  margin-bottom: 20px;
 }
 .nav a {
   color: #ffde5a;
@@ -281,6 +296,55 @@ body {
 .servicesrightcontent h5 {
   font-size: 40px;
   color: #ffde5a;
+}
+.aboutmenu {
+  width: 90%;
+  padding: 30px;
+  background-color: #1c1c1c;
+  margin: 20px;
+  border-radius: 40px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutmenu .menuheader {
+  font-size: 35px;
+  text-align: center;
+  color: #a88600;
+  margin-bottom: 15px;
+}
+.servicesright p {
+  font-size: 18px;
+}
+.servicesright ul li {
+  font-size: 17px;
+}
+.contactlinks {
+  background-color: #a88600;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.3);
+}
+.menup {
+  width: 80%;
+  font-size: 18px;
+}
+.linemenu {
+  margin: 15px auto 15px auto;
+  width: 90%;
+  height: 1px;
+  background-color: #ffde5a;
+  border: none;
+  opacity: 0.5;
+}
+.linediv {
+  margin: 0px auto 20px auto;
+  width: 90%;
+  height: 3px;
+  background-color: #141414;
+  border: none;
+  opacity: 0.8;
 }
 .servicesleft {
   background-color: #d0d0d0;
@@ -418,6 +482,16 @@ body {
     font-size: 60px;
   }
   .servicesrightcontent h5 {
+    text-align: center;
+  }
+  .sectionheader h4 {
+    font-size: 25px;
+  }
+  .aboutmenu {
+    width: 75%;
+  }
+  .aboutmenu .menuheader {
+    font-size: 30px;
     text-align: center;
   }
 }

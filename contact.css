@@ -12,7 +12,16 @@
   color: black;
   text-decoration: none;
 }
+.contactlinks {
+  margin: 20px;
+  padding-top: 30px;
+}
+.contactlinkhead {
+  width: calc(100% - 40px);
 
+  margin: 20px;
+  text-align: center;
+}
 .contactacting,
 .contactcafe {
   margin: 30px;
@@ -57,7 +66,8 @@ li a {
   color: #000000;
 }
 li p {
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 10px;
+  
 }
 .contactinfo {
   background-color: #f1f1f1;

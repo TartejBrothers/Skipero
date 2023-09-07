@@ -41,7 +41,7 @@ li,
 .lipart {
   display: flex;
   align-items: center;
-
+  width: 100%;
   font-size: 18px;
 }
 ul {
@@ -57,8 +57,7 @@ ul {
 li {
   justify-self: center;
   flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin: 20px;
 }
 li a {
@@ -66,9 +65,9 @@ li a {
   color: #000000;
 }
 li p {
-  margin: 10px 10px 10px 10px;
-  
+  margin: 10px 5px 10px 5px;
 }
+
 .contactinfo {
   background-color: #f1f1f1;
   color: #000000;
@@ -102,9 +101,15 @@ li p {
   .map a p {
     margin: 15px 0px 0px 0px;
   }
+  .map img {
+    margin: 5px 5px 5px 5px;
+  }
   li {
     justify-content: center;
     flex-direction: column;
+  }
+  li img {
+    height: 20px;
   }
   .contactheader {
     font-size: 18px;
@@ -118,6 +123,9 @@ li p {
     justify-content: center;
     align-items: center;
     gap: 0px;
+  }
+  li p {
+    margin: 5px 3px 5px 3px;
   }
   .lipart {
     display: flex;
